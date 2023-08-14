@@ -26,6 +26,7 @@ data = fll.useExcel(excelFile,column)
 fll.findLocation(api,data,toExcel)
 
 Explain
+
   excelFile = "Your excel file location"
   
   column = "Column names which includes your data"
