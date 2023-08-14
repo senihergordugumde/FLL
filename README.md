@@ -12,7 +12,9 @@ Basically we have 2 methods. Maybe you want to use your python list. So you can 
 fll.findLocation(api,data,toExcel)
 
 api = "Api that taken from Google"
+
 data = Your data list in python
+
 toExcel = It's a boolean variable. Do you want an excel file? If yes try True or 1
   
 ----
@@ -20,10 +22,12 @@ Another situation. If you want to use data in excel file you can use this method
 
 
 data = fll.useExcel(excelFile,column)
+
 fll.findLocation(api,data,toExcel)
 
 Explain
   excelFile = "Your excel file location"
+  
   column = "Column names which includes your data"
 
 
