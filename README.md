@@ -13,6 +13,9 @@ pip install -i https://test.pypi.org/simple/ fll
 
 
 # Requirements
+
+FLL is using Pandas, Openpyxl and Geocoder libraries.
+
 ```
 pip install -r requirements.txt
 ```
@@ -20,6 +23,11 @@ pip install -r requirements.txt
 
 # How to use
 
+First of all we must create an object from fll.
+
+```
+fll = fll.Find_Latitude_Longitude()
+```
 Basically we have 2 methods. Maybe you want to use your python list. So you can try this.
 ```
 fll.findLocation(api, data, toExcel)
