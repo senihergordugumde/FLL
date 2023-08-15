@@ -1,4 +1,6 @@
 # FLL
+![FLL-4](https://github.com/senihergordugumde/FLL/assets/85408428/a5c0368a-946f-499a-b19a-d131080e07fe)
+
 A simple tool that i wrote with python give easiness for find latitude and longitude locations from an excel table or python list. For example this locations may like this( “İstanbul”, “İstanbul/Sefaköy”, “Sevim Sk. no: 12”, “Pera Müzesi” )
 
 # Requirements
@@ -9,26 +11,27 @@ pip install -r requirements.txt
 
 Basically we have 2 methods. Maybe you want to use your python list. So you can try this.
 
-fll.findLocation(api,data,toExcel)
+fll.findLocation(api, data, toExcel)
 
-api = "Api that taken from Google"
+- api = "Api that taken from Google"
 
-data = Your data list in python
+- data = Your data list in python
 
-toExcel = It's a boolean variable. Do you want an excel file? If yes try True or 1
+- toExcel = It's a boolean variable. Do you want an excel file? If yes try True or 1
   
 ----
 Another situation. If you want to use data in excel file you can use this method.
 
 
-data = fll.useExcel(excelFile,column)
 
-fll.findLocation(api,data,toExcel)
+data = fll.useExcel(excelFile, column)
 
-Explain
+fll.findLocation(api, data, toExcel)
 
-  excelFile = "Your excel file location"
+#### Explain
+
+- excelFile = "Your excel file location"
   
-  column = "Column names which includes your data"
+- column = "Column names which includes your data"
 
 
