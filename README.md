@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 # How to use
 
-First of all we must create an object from fll.
+First of all we must create an object from FLL.
 
 ```
 fll = fll.Find_Latitude_Longitude()
